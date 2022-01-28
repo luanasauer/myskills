@@ -1,0 +1,11 @@
+com/ignite/myskills/MainActivity.java
+ com.ignite.myskills.MainActivity
+com/ignite/myskills/BuildConfig.java
+ com.ignite.myskills.BuildConfig
+com/ignite/myskills/SplashActivity.java
+ com.ignite.myskills.SplashActivity
+com/ignite/myskills/MainApplication.java
+ com.ignite.myskills.MainApplication
+ com.ignite.myskills.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ignite.myskills"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:6:5-31:19
+14        android:name="com.ignite.myskills.MainApplication"
+14-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /home/luana/.gradle/caches/transforms-3/94c4745ecd6aa2bded7c344d03d4593c/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:14:7-22:18
+22            android:name="com.ignite.myskills.SplashActivity"
+22-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:15:11-41
+23            android:label="@string/app_name"
+23-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:17:11-43
+24            android:theme="@style/SplashTheme" >
+24-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:16:11-45
+25            <intent-filter>
+25-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:18:11-21:27
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:19:15-67
+26-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:19:23-64
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:20:15-75
+28-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:20:25-72
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:24:7-30:34
+32            android:name="com.ignite.myskills.MainActivity"
+32-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:25:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:27:9-86
+34            android:exported="true"
+34-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:30:9-32
+35            android:label="@string/app_name"
+35-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:26:9-41
+36            android:launchMode="singleTask"
+36-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:28:9-40
+37            android:windowSoftInputMode="adjustResize" />
+37-->/home/luana/Projetos/ignite/ReactNative/myskills/android/app/src/main/AndroidManifest.xml:29:9-51
+38    </application>
+39
+40</manifest>

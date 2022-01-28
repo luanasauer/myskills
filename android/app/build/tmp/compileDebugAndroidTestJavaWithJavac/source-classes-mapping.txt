@@ -1,4 +1,0 @@
-com/myskills/DetoxTest.java
- com.myskills.DetoxTest
-com/myskills/test/BuildConfig.java
- com.myskills.test.BuildConfig
